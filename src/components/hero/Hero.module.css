@@ -1,0 +1,16 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #000000;
+    padding: 98px 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.43px;
+    font-weight: 700;
+    text-transform: uppercase;
+}

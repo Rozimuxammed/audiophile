@@ -1,0 +1,37 @@
+.footer {
+    width: 100%;
+    background-color: #000000;
+    padding: 70px 0;
+}
+
+.footer_hero {
+    width: 100%;
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #8c8b8b;
+}
+
+.footer_hero_text {
+    width: 43%;
+}
+
+.footer_hero_text p {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.footer_hero_text p:nth-child(2) {
+    margin-top: 56px;
+}
+
+.social_media {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.social_media img {
+    cursor: pointer;
+}

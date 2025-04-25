@@ -1,0 +1,25 @@
+.audioGear {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    margin-bottom: 160px;
+}
+
+.audioGear h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.43px;
+    margin-bottom: 32px;
+}
+
+.audioGear h1 span {
+    color: #D87D4A;
+}
+
+.audioGear p {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 25px;
+}

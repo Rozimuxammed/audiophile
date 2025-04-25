@@ -1,0 +1,37 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 160px 0;
+    display: flex;
+    align-items: center;
+    gap: 125px;
+}
+
+.span {
+    color: #D87D4A;
+    font-size: 14px;
+    letter-spacing: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-size: 50px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.text {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+.container .card:nth-child(2){
+    flex-direction: row-reverse;
+}
