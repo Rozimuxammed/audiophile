@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .lists {
@@ -18,4 +20,25 @@
     font-weight: 700;
     line-height: 25px;
     text-transform: uppercase;
+}
+
+
+@media (max-width:768px) {
+    .nav {
+        flex-direction: column;
+        gap: 32px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:576px) {
+    .nav {
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .lists {
+        flex-direction: column;
+    }
 }

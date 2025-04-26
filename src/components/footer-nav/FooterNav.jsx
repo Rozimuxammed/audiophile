@@ -2,7 +2,7 @@ import logo from "../../assets/logo.svg"
 import obj from "../footer-nav/FooterNav.module.css"
 
 
-export default function FooterNav() {
+export default function bFooterNav() {
     return (
         <nav>
             <div className={obj.nav}>

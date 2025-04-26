@@ -14,3 +14,9 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+@media (max-width:576px) {
+    .text {
+        font-size: 28px;
+    }
+}

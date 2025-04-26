@@ -3,6 +3,8 @@
     align-items: center;
     gap: 125px;
     margin-bottom: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .audioGear h1 {
@@ -22,4 +24,35 @@
     color: #000000;
     font-weight: 500;
     line-height: 25px;
+}
+
+@media (max-width:1024px) {
+    .audioGear {
+        gap: 80px;
+    }
+
+    .audioGear h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:786px) {
+    .audioGear {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .responsive_img {
+        width: 100%;
+    }
+
+    .audioGear h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:576px) {
+    .audioGear h1 {
+        font-size: 28px;
+    }
 }

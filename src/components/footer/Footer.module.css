@@ -11,6 +11,8 @@
     align-items: center;
     justify-content: space-between;
     color: #8c8b8b;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer_hero_text {
@@ -34,4 +36,27 @@
 
 .social_media img {
     cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .footer_hero_text {
+        width: 100%;
+    }
+
+    .footer_hero {
+        align-items: flex-end;
+    }
+}
+
+@media (max-width:576px) {
+    .footer_hero {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer_hero_text {
+        margin-bottom: 48px;
+    }
 }

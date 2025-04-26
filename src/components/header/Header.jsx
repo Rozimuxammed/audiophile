@@ -1,9 +1,9 @@
 import "../header/Header.css"
 import Navbar from "../navbar/Navbar"
-export default function Header() {
+export default function Header({ category }) {
     return (
         <header>
-            <Navbar />
+            <Navbar category={category} />
         </header>
     )
 }

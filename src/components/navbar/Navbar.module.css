@@ -13,6 +13,8 @@
     justify-content: space-between;
     border-bottom: 1px solid #898888;
     padding-bottom: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .lists {
@@ -32,4 +34,32 @@
 
 .shopping_logo {
     cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+.logo_menu {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+@media (max-width: 768px) {
+
+    .lists {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo_menu {
+        width: 80%;
+        justify-content: space-evenly;
+    }
 }
